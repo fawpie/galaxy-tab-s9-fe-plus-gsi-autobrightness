@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.fawpie.adaptivebrightness.sm_x610"
+    android:versionCode="2"
+    android:versionName="1.1">
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="28" />
+    <application android:hasCode="false" android:label="SM-X610 Adaptive Brightness" />
+    <overlay
+        android:targetPackage="android"
+        android:isStatic="true"
+        android:priority="950"
+        android:requiredSystemPropertyName="ro.product.vendor.device"
+        android:requiredSystemPropertyValue="gts9fepwifi" />
+</manifest>

@@ -1,0 +1,6 @@
+id=fawpie_adaptive_brightness
+name=Galaxy Tab S9 FE+ GSI Auto-Brightness Fix
+version=1.2.0
+versionCode=3
+author=fawpie
+description=Enables adaptive brightness on the Galaxy Tab S9 FE+ Wi-Fi (SM-X610) with a device-tested brightness curve.
